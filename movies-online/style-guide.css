@@ -1,0 +1,98 @@
+
+----------Style Guide for Discover Movies replica page-------
+
+This list is to describe what is already on the page. If colors not included in this list are identified on the existing page, they could be added.
+
+
+Color Palette:
+
+Primary colors: A primary color is intended to describe a background or other element that defines an area of the page.
+.aqua {#74C0C8}
+.black {}
+.red {#EA4C89}
+.white {}
+
+Secondary colors: A secondary color is an accent color to be used with a primary color. It could be for a button, a border, an icon or other simple element.
+
+.red {#CC4D4D}
+.yellow {#F5AF40}
+.gray {#C2CBD7}
+.green {#94BA52}
+.silver {#AGAF89}
+
+Text colors: 
+.blue {#2E494F}
+undefined dark gray
+undefined silver
+undefined white
+
+
+------------------------------Font-family-------------------------
+Font-family: "Helvetica Neue"; Helvetica; Arial; sans-serif;
+
+-----------------Images----------------------------------
+
+We may be better off assigning a percentage rather than a height.
+.image_main {
+
+  height: 180px;
+  width: 120px;
+  padding: 15px;
+}
+
+  .image_text {
+
+    height : 60px;
+    font: "Helvetica Neue", Helvetica; Arial; sans-serif;
+    The movie title should be in bold type
+    The genre and run time should be in regular text
+
+  }
+
+--------------------Patterns----------------------------
+
+This pattern describes a block containing a movie image and the caption, 
+which includes the title, the genre(s) and the run time.
+
+This is the parent of .image_main and or .image_text and attributes assigned here would apply to either of those elements unless specifically overwritten.
+
+.movie_image_plus_caption {
+
+  height: 100%;
+  width: 120px;
+  padding: 15px;
+
+}
+
+This pattern describes a block of information that appears when you hover over any part of .movie_image_plus_caption
+
+.movie_info_hover_window {
+  height: 300px;
+  width: 340px;
+  background-color: 
+
+}
+
+This pattern describes the block of links on the left navigation under "main." The pattern is for one individual link. 
+.left_nav_links {
+
+
+}
+
+  .left_nav_hover {
+
+  }
+  .left_nav_active {
+
+
+  }
+
+This pattern describes the block of information that appears on the right navigation to indicate one individual who is or is not online. These appear to be two states in the same data table.
+.online {
+
+
+}
+  .offline {
+
+
+  }
