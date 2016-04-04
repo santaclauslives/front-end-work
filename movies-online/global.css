@@ -1,6 +1,32 @@
-.image_main {
+.left-nav-item {
+  position: relative;
+  display: block;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 12px;
+  padding: 15px 15px 15px 15px;
+  color: white;
+  background-color: black;
+  text-align: left;
+  text-decoration: none;
+  max-width: 180px; }
+
+.discover-heading {
+  color: #666;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 24px; }
+
+.movie-images {
+  position: relative;
+  display: block;
+  float: left;
   height: 180px;
   width: 120px;
-  padding: 15px; }
+  padding: 15px 15px 15px 15px; }
+
+.movie_image_movie_caption {
+  color: #666;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 18px;
+  position: absolute; }
 
 /*# sourceMappingURL=global.css.map */

@@ -33,14 +33,14 @@ Font-family: "Helvetica Neue"; Helvetica; Arial; sans-serif;
 -----------------Images----------------------------------
 
 We may be better off assigning a percentage rather than a height.
-.image_main {
+.movie_image_main {
 
   height: 180px;
   width: 120px;
   padding: 15px;
 }
 
-  .image_text {
+  .movie_image_text {
 
     height : 60px;
     font: "Helvetica Neue", Helvetica; Arial; sans-serif;
@@ -58,7 +58,7 @@ This is the parent of .image_main and or .image_text and attributes assigned her
 
 .movie_image_plus_caption {
 
-  height: 100%;
+  height: 240px;
   width: 120px;
   padding: 15px;
 
