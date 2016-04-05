@@ -122,4 +122,9 @@
   font-size: 12px;
   padding: 30px 0px 30px 15px; }
 
+.input [type="text"] {
+  border: none;
+  border-bottom-width: 2px;
+  border-bottom-color: white; }
+
 /*# sourceMappingURL=global.css.map */
