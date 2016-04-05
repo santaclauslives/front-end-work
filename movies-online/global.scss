@@ -12,7 +12,7 @@ display: block;
 width: 100%;
 font-family: "Helvetica Neue", Helvetica;
 font-size: 12px;
-padding: 20px 0px 20px 0px;
+padding: 20px 0px 20px 15px;
 color: white;
 background-color: red;
 text-decoration: none;
@@ -26,7 +26,7 @@ margin-right: 20px;
   width: 100%;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 12px;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 20px 15px;
   color: white;
   background-color: #11171C;
   text-align: left;
@@ -72,7 +72,7 @@ margin-right: 20px;
   float: left;
   height: 180px;
   width: 100%;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 15px;
 }
 
   .movie-image-caption {
@@ -100,12 +100,15 @@ margin-right: 20px;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 12px;
   padding: 30px 0px 30px 15px;
+  
 
 
 }
 
 .online-status {
-
+  width: 100%;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 12px;
   color: #9199A2;
   background-color: #ECEDEF;
   padding: 30px 0px 30px 15px; 
