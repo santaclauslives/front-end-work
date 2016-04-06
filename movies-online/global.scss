@@ -14,7 +14,7 @@ overflow: hidden;
 width: 100%;
 font-family: "Helvetica Neue", Helvetica;
 font-size: 12px;
-padding: 20px 0px 20px 15px;
+padding: 20px 0px 20px 0px;
 color: white;
 background-color: red;
 text-decoration: none;
@@ -23,11 +23,17 @@ margin-right: 20px;
 }
 
 .search {
+  display: block;
   border: none;
   border-bottom: 2px solid white;
   background: transparent;
   color: white;
+  margin-left: 15px;
  
+}
+
+::-webkit-input-placeholder {
+   color: white;
 }
 
 
@@ -35,14 +41,36 @@ margin-right: 20px;
   position: relative;
   display: block;
   width: 100%;
+  padding: 20px 0px 20px 0px;
+  background-color: #11171C;
+  margin-left: 0px;
+}
+
+.left-nav-text {
   font-family: "Helvetica Neue", Helvetica;
   font-size: 12px;
-  padding: 20px 0px 20px 15px;
-  color: white;
-  background-color: #11171C;
   text-align: left;
+  margin-left: 15px;
+  color: white;
   text-decoration: none;
-  margin-left: 0px;
+}
+
+.left-nav-subhead {
+  padding: 20px 0px 20px 0px;
+  background-color: #11171C;
+
+}
+.left-nav-subhead-text {
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 15px;
+  color: #999;
+  background-color: #11171C;
+  text-decoration: none;
+
+
+
 }
 
 // .your-movie-searches {
