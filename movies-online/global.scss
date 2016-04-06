@@ -189,7 +189,7 @@ margin-right: 20px;
 
 // ---------------------end movie listings------------
 
-
+//---------------------start of right column-----------
 
 
 .container-right {
@@ -203,12 +203,27 @@ margin-right: 20px;
   width: 100%;
   position: relative;
   background-color: #74C0CB;
-  color: white;
-  font-family: "Helvetica Neue", Helvetica;
-  font-size: 12px;
-  padding: 30px 0px 30px 15px;
+  // color: white;
+  // font-family: "Helvetica Neue", Helvetica;
+  // font-size: 12px;
+  padding: 30px 0px 30px 0px;
   
 }
+
+.jack-dorsey-text {
+    width: 80%;
+    position: relative;
+    background-color: #74C0CB;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica;
+    font-size: 12px;
+    margin-left: 15px;
+  
+}
+
+
+
+
 
 .online-status {
   width: 100%;
@@ -216,7 +231,7 @@ margin-right: 20px;
   font-size: 12px;
   color: #9199A2;
   background-color: #ECEDEF;
-  padding: 30px 0px 30px 15px; 
+  padding: 30px 0px 30px 0px; 
 }
 
 .online-person {
@@ -227,7 +242,7 @@ margin-right: 20px;
   color: #57646D;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 12px;
-  padding: 30px 0px 30px 15px;
+  padding: 30px 0px 30px 0px;
 
 }
 
@@ -238,7 +253,7 @@ margin-right: 20px;
   color: #57646D;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 12px;
-  padding: 30px 0px 30px 15px;
+  padding: 30px 0px 30px 0px;
 
 }
 
