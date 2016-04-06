@@ -195,35 +195,31 @@ margin-right: 20px;
 .container-right {
   width: 15%;
   float: right;
-
  
+}
+
+.social-media {
+  width: 100%;
 }
 
 .jack-dorsey-top {
   width: 100%;
   position: relative;
   background-color: #74C0CB;
-  // color: white;
-  // font-family: "Helvetica Neue", Helvetica;
-  // font-size: 12px;
   padding: 30px 0px 30px 0px;
   
 }
 
 .jack-dorsey-text {
-    width: 80%;
+    
     position: relative;
     background-color: #74C0CB;
     color: white;
     font-family: "Helvetica Neue", Helvetica;
     font-size: 12px;
-    margin-left: 15px;
+    padding-left: 15px;
   
 }
-
-
-
-
 
 .online-status {
   width: 100%;
@@ -234,7 +230,7 @@ margin-right: 20px;
   padding: 30px 0px 30px 0px; 
 }
 
-.online-person {
+.online-status-subhead {
 
   width: 100%;
   position: relative;
@@ -242,8 +238,30 @@ margin-right: 20px;
   color: #57646D;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 12px;
-  padding: 30px 0px 30px 0px;
+  font-weight: bold;
+  padding: 30px 0px 0px 0px;
+  margin-left: 15px; 
+}
 
+.online-status-text {
+
+  width: 100%;
+  position: relative;
+  background-color: #ECEDEF;
+  color: #666;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 12px;
+  padding: 30px 0px 30px 0px;
+  margin-left: 15px;
+
+}
+
+.online-status-doppelganger {
+  color: #57646D;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
 }
 
 .offline-person {
@@ -257,5 +275,9 @@ margin-right: 20px;
 
 }
 
+.chat-with {
 
+  background-color: #666;
+  padding: 30px 0px 30px 0px;
+}
 
