@@ -8,22 +8,22 @@
 
 
 .search-movies {
-position: relative;
-display: block;
-overflow: hidden;
-width: 100%;
-font-family: "Helvetica Neue", Helvetica;
-font-size: 12px;
-padding: 20px 0px 20px 0px;
-color: white;
-background-color: red;
-text-decoration: none;
-margin-right: 20px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 12px;
+  padding: 20px 0px 20px 0px;
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  margin-right: 20px;
 
 }
 
 .search {
-  display: block;
+  display: inline-block;
   border: none;
   border-bottom: 2px solid white;
   background: transparent;
@@ -34,6 +34,11 @@ margin-right: 20px;
 
 ::-webkit-input-placeholder {
    color: white;
+}
+
+.search-spyglass-icon {
+  display: inline;
+  vertical-align: -10px;
 }
 
 
@@ -48,9 +53,9 @@ margin-right: 20px;
 
 .left-nav-text {
   font-family: "Helvetica Neue", Helvetica;
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
-  margin-left: 15px;
+  margin-left: 10px;
   color: white;
   text-decoration: none;
 }
@@ -63,29 +68,41 @@ margin-right: 20px;
 .left-nav-subhead-text {
   font-family: "Helvetica Neue", Helvetica;
   font-size: 12px;
-  text-align: left;
-  margin-left: 15px;
+  text-align: left; 
   color: #999;
   background-color: #11171C;
   text-decoration: none;
+  display: inline-block;
+}
 
+
+//for the google icon on the movie search
+// .search-movies {
+//   color: white;
+//   display: inline;
+//   vertical-align: text-bottom;
+//   margin-left: 15px;
+// }
+
+.left-nav-icon {
+  color: yellow;
+  display: inline-block;
+  vertical-align: -7px;
+  margin-left: 15px;
+  font-size: 12px;
+
+}
+
+.left-nav-color-icon {
+  display: inline-block;
+  vertical-align: -7px;
+  margin-left: 15px;
+  font-size: 12px;
 
 
 }
 
-// .your-movie-searches {
-//   display: block;
-//   width: 100%;
-//   font-family: "Helvetica Neue", Helvetica;
-//   font-size: 12px;
-//   padding: 20px 0px 20px 15px;
-//   color: white;
-//   background-color: #11171C;
-//   text-align: left;
-//   text-decoration: none;
-//   margin-left: 0px;
-
-// }
+//--------------Done with left container on to center
 
 .container-center {
   position: relative;
@@ -98,12 +115,18 @@ margin-right: 20px;
   position: relative;
   float: left;
   width: 100%;
-  display: block;
+  
+}
+
+.discover-text {
+  display: inline-block;
   color: #666;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 24px;
-  padding-left: 30px;
-  
+  padding-left: 15px;
+
+
+
 }
 
 .release-date-text {
@@ -112,7 +135,7 @@ margin-right: 20px;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 14px;
   color: #57646D;
-  padding-left: 20%;
+  padding-left: 10%;
 
 }
 
@@ -122,35 +145,51 @@ margin-right: 20px;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 14px;
   color: #74C0CB;
-  padding-right: 20%;
+  padding-right: 10%;
 
 }
 
+
+.start-icon {
+
+  color: gray;
+  float: right;
+  position: relative;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.refresh-icon {
+  color: gray;
+  float: right;
+  position: relative;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+
 // --------------------movie listings---------------
 
+.movie-image-plus-caption {
+  position: relative;
+  display: block;
+  width: 100%;
+}
 
-
-// .movie-images {
-//   position: relative;
-//   display: block;
-//   float: left;
-//   height: 180px;
-//   width: 100%;
-//   padding: 15px 0px 15px 15px;
-// }
 
 .one-movie-object {
   position: relative;
+  display: block;
   float: left;
-  width: 14%;
-  height: 240px;
-  padding: 15px 15px 15px 15px;
+  width: 16%;
+  height: 270px;
+  padding: 20px 19px 20px 19px;
 }
 
 .movie-image {
   position: relative;
   display: block;
-  height: 180px;
+  height: 240px;
   width: 100%;
   padding-bottom: 5px;
   // padding: 15px 15px 15px 15px;
@@ -200,10 +239,12 @@ margin-right: 20px;
 
 .social-media {
   width: 100%;
+
 }
 
 .jack-dorsey-top {
   width: 100%;
+  display:block;
   position: relative;
   background-color: #74C0CB;
   padding: 30px 0px 30px 0px;
@@ -225,6 +266,7 @@ margin-right: 20px;
   width: 100%;
   font-family: "Helvetica Neue", Helvetica;
   font-size: 12px;
+  display: block;
   color: #9199A2;
   background-color: #ECEDEF;
   padding: 30px 0px 30px 0px; 
